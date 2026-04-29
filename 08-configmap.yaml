@@ -1,0 +1,9 @@
+apiversion: v1
+kind: Configmap
+metadata:
+  name : nginx-config
+data:
+  Project : "roboshop"
+  Environment : "dev"
+  Component: "frontend"
+  Course: "Kubernates"

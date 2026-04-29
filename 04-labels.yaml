@@ -1,0 +1,15 @@
+apiversion : v1
+kind : pod
+metadata:
+  name : labels
+  namespace: roboshop
+  labels:
+     project : roboshop
+     component: frontend
+     environment : dev
+  spec:
+    containers:
+      - name : nginx
+        image: nginx
+      - name: almalinux:9
+        image : almalinux
