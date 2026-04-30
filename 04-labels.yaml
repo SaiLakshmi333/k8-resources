@@ -13,3 +13,4 @@ spec:
         image: nginx
       - name: almalinux
         image : almalinux:9
+        command: ["sleep", "3600"]
